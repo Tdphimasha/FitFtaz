@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".WorkoutActivity">
+
+    <TextView
+        android:id="@+id/exerciseNameTextView"
+        android:layout_width="319dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="21dp"
+        android:text="Exercise Name"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <VideoView
+        android:id="@+id/exerciseVideoView"
+        android:layout_width="395dp"
+        android:layout_height="282dp"
+        android:layout_below="@id/exerciseNameTextView"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_below="@id/exerciseVideoView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="97dp"
+        android:background="@drawable/timimg"
+        android:text="00:00:00"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerTextView"
+        android:layout_marginTop="26dp"
+        android:text="Start Workout"
+        app:rippleColor="#5A66AA" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timerTextView"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@id/startButton"
+        android:enabled="false"
+        android:text="Stop Workout" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="394dp"
+        android:layout_height="153dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/workout_img" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_marginBottom="355dp"
+        android:src="@drawable/step_count_image" />
+
+    <ImageView
+        android:id="@+id/iv_step_counter"
+        android:layout_width="208dp"
+        android:layout_height="94dp"
+        android:layout_below="@+id/tv_step_goal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="95dp"
+        android:src="@drawable/ic_step_counter_1" />
+
+    <TextView
+        android:id="@+id/tv_step_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="0"
+        android:textColor="#1D6FAE"
+        android:textSize="96sp" />
+    <!-- Progress bar -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="250dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_bar" />
+
+    <TextView
+        android:id="@+id/tv_step_goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:text="Goal: 10,000 steps"
+        android:textColor="#C50505"
+        android:textSize="34sp" />
+    <!-- Reset button -->
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="#1F0E3E"
+        android:text="Reset"
+        android:textColor="#ffffff"
+        app:cornerRadius="20dp" />
+
+</RelativeLayout>

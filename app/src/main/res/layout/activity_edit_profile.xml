@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/firstNameEditText"
+        android:layout_width="376dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        tools:text="Name" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="381dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/firstNameEditText"
+        android:layout_marginBottom="16dp"
+        android:hint="email"
+        android:inputType="textPersonName"
+        tools:text="Email" />
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_width="376dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginBottom="16dp"
+        android:hint="userName"
+        android:inputType="textPersonName"
+        tools:text="UserName" />
+    <EditText
+        android:id="@+id/passwordNameEditText"
+        android:layout_width="376dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/userNameEditText"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        tools:text="UserName" />
+
+    <Button
+        android:id="@+id/saveProfileButton"
+        android:layout_width="264dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/emailEditText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="59dp"
+        android:backgroundTint="#7273D6"
+        android:text="Save Profile" />
+
+</RelativeLayout>

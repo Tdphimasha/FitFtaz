@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359906895971",
+    "project_id": "fitfatz-f224a",
+    "storage_bucket": "fitfatz-f224a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359906895971:android:c0a6f9304d46a2809ff056",
+        "android_client_info": {
+          "package_name": "com.himasha.fitfatz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359906895971-gjanao0mkbtuitkcck13is64vq6dkjtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwxS_NJi_bFrqqJcXpGiclbTvyePaV9IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359906895971-gjanao0mkbtuitkcck13is64vq6dkjtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
