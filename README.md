@@ -1,6 +1,7 @@
 # FitFtaz
 Fitness tracking App 
 ![a (8)](https://github.com/Tdphimasha/FitFtaz/assets/96642932/01d63a7a-a444-4e0a-bb7b-b8870f848458)
+
 ![a (2)](https://github.com/Tdphimasha/FitFtaz/assets/96642932/7721b500-2f77-4199-9f22-fd62c29fb925)
 ![a (9)](https://github.com/Tdphimasha/FitFtaz/assets/96642932/539b2920-684e-48da-944b-984aea131d1e)
 ![a (12)](https://github.com/Tdphimasha/FitFtaz/assets/96642932/e24849e3-ee02-4fb2-8057-4bcaba6ec85e)
